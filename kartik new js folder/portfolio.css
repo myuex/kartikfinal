@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: aqua;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+ul{
+ display: flex;
+ align-items: center; 
+ 
+}
+
+li{
+    list-style: none;
+    padding-left: 60px;
+}
+
+.home{
+    padding-left: 780px;
+}
+
+.downarrow{
+    width: 50px;
+}
+
+.arrowdiv{
+    display: flex;
+    justify-content: center;
+}

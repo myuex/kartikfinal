@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main_div {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.166);
+}
+header div h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2;
+  font-stretch: expanded;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 6px;
+}
+li {
+  list-style-type: none;
+  padding: 0px 20px;
+  display: inline-block;
+  font-family: Helvetica, serif;
+}
+ul {
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(0, 255, 208);
+  border-radius: 50px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.but_a {
+  color: white;
+  text-decoration: none;
+}
+.mid-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 80px;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  font-family: Helvetica, serif;
+}
+.expand {
+  font-size: 30px;
+  font-stretch: ultra-expanded;
+  margin-top: 40px;
+  letter-spacing: 20px;
+}
+.h2_span {
+  color: aqua;
+  text-shadow: rgba(0, 200, 255, 1) 0px 0px 28px;
+}
+.para_p {
+  margin-top: 80px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.166);
+  padding: 20px;
+}
+
+footer nav {
+  text-align: center;
+}
+
+.facebook {
+  width: 29px;
+}
+.insta {
+  width: 50px;
+}
+.twitter {
+  width: 35px;
+}
+
+footer div h3 {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+footer div h3 span {
+  letter-spacing: 3px;
+}
+.main-upper {
+  height: 100%;
+}
+
+@media (max-width: 8px) {
+  body {
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header div h1 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 4px;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 0px 15 px;
+    display: inline-block;
+    font-family: Helvetica, serif;
+  }
+
+  button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(0, 255, 208);
+    border-radius: 50px;
+    padding: 9px 25px;
+    cursor: pointer;
+  }
+  ul {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 35px;
+    font-family: Helvetica, serif;
+  }
+  .expand {
+    font-size: 28px;
+    font-stretch: ultra-expanded;
+    margin-top: 30px;
+    letter-spacing: 15px;
+  }
+  .para_p {
+    margin-top: 80px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+  }
+  footer {
+    background: rgba(255, 255, 255, 0.166);
+    padding: 18px;
+    height: 100%;
+  }
+  footer div h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header div h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 0px 10px;
+    display: inline-block;
+    font-family: Helvetica, serif;
+  }
+
+  button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(0, 255, 208);
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  ul {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 25px;
+    font-family: Helvetica, serif;
+  }
+  .expand {
+    font-size: 20px;
+    font-stretch: ultra-expanded;
+    margin-top: 30px;
+    letter-spacing: 10px;
+  }
+  .para_p {
+    margin-top: 60px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+  }
+  footer {
+    background: rgba(255, 255, 255, 0.166);
+    padding: 15px;
+    height: 100%;
+  }
+  footer div h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main_div {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.166);
+}
+header div h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2;
+  font-stretch: expanded;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 6px;
+}
+li {
+  list-style-type: none;
+  padding: 0px 20px;
+  display: inline-block;
+  font-family: Helvetica, serif;
+}
+ul {
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(0, 255, 208);
+  border-radius: 50px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.but_a {
+  color: white;
+  text-decoration: none;
+}
+.mid-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 80px;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  font-family: Helvetica, serif;
+}
+.expand {
+  font-size: 30px;
+  font-stretch: ultra-expanded;
+  margin-top: 40px;
+  letter-spacing: 20px;
+}
+.h2_span {
+  color: aqua;
+  text-shadow: rgba(0, 200, 255, 1) 0px 0px 28px;
+}
+.para_p {
+  margin-top: 80px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.166);
+  padding: 20px;
+}
+
+footer nav {
+  text-align: center;
+}
+
+.facebook {
+  width: 29px;
+}
+.insta {
+  width: 50px;
+}
+.twitter {
+  width: 35px;
+}
+
+footer div h3 {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+footer div h3 span {
+  letter-spacing: 3px;
+}
+.main-upper {
+  height: 100%;
+}
+
+@media (max-width: 8px) {
+  body {
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header div h1 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 4px;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 0px 15 px;
+    display: inline-block;
+    font-family: Helvetica, serif;
+  }
+
+  button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(0, 255, 208);
+    border-radius: 50px;
+    padding: 9px 25px;
+    cursor: pointer;
+  }
+  ul {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 35px;
+    font-family: Helvetica, serif;
+  }
+  .expand {
+    font-size: 28px;
+    font-stretch: ultra-expanded;
+    margin-top: 30px;
+    letter-spacing: 15px;
+  }
+  .para_p {
+    margin-top: 80px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+  }
+  footer {
+    background: rgba(255, 255, 255, 0.166);
+    padding: 18px;
+    height: 100%;
+  }
+  footer div h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header div h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 0px 10px;
+    display: inline-block;
+    font-family: Helvetica, serif;
+  }
+
+  button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(0, 255, 208);
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  ul {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 25px;
+    font-family: Helvetica, serif;
+  }
+  .expand {
+    font-size: 20px;
+    font-stretch: ultra-expanded;
+    margin-top: 30px;
+    letter-spacing: 10px;
+  }
+  .para_p {
+    margin-top: 60px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+  }
+  footer {
+    background: rgba(255, 255, 255, 0.166);
+    padding: 15px;
+    height: 100%;
+  }
+  footer div h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+}
+
